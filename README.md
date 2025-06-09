@@ -11,5 +11,5 @@ ReZup is an AI-powered resume analyzer built using Groq’s LLaMA 3 model. It gi
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/YOUR_USERNAME/ReZup.git
+git clone https://github.com/Preethraj/ReZup.git
 cd ReZup
