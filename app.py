@@ -1,9 +1,10 @@
 import openai
 import pdfplumber
 import gradio as gr
+from dotenv import load_dotenv
 
 # SET YOUR GROQ API KEY
-openai.api_key = "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"
+openai.api_key = "os.getenv("GROQ_API_KEY")"
 openai.api_base = "https://api.groq.com/openai/v1"
 
 def analyze_resume(text):
